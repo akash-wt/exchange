@@ -75,7 +75,14 @@ export function Depth({ market }: {market: string}) {
         });
 
         getTicker(market).then(t => setPrice(t.lastPrice));
-        getTrades(market).then(t => setPrice(t[0].price));
+        getTrades(market).then(t => {
+            if (t && t.length > 0) {
+                setPrice(t[0].price);
+            } else {
+                console.warn("No trades data received:", t);
+            }
+        }).catch(err => console.error("Error fetching trades:", err));
+        
 
         return () => {
             SignalingManager.getInstance().sendMessage({"method":"UNSUBSCRIBE","params":[`depth@${market}`]});
