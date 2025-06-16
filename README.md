@@ -2,18 +2,7 @@
 
 A high-performance, real-time cryptocurrency exchange platform built with a microservices architecture. Features include order matching, real-time market data, WebSocket connections, and a modern trading interface.
 
-## 🏗️ Architecture
-
-The platform consists of several microservices:
-
-- **API Server** - REST API for order management and market data
-- **Trading Engine** - Core order matching and execution logic
-- **Database Service** - Data persistence and time-series analytics
-- **WebSocket Server** - Real-time market data streaming
-- **Market Maker** - Automated liquidity provision
-- **Frontend** - Modern React-based trading interface
-
-## 🚀 Features
+##  Features
 
 ### Trading
 - **Order Types**: Market and limit orders
@@ -48,11 +37,10 @@ The platform consists of several microservices:
 - **TypeScript** for type safety
 - **Tailwind CSS** for styling
 - **Lightweight Charts** for trading charts
-- **Axios** for HTTP requests
 
 ## 📋 Prerequisites
 
-- Node.js (v16 or higher)
+- Node.js 
 - Docker and Docker Compose
 - Redis
 - PostgreSQL with TimescaleDB extension
@@ -61,8 +49,8 @@ The platform consists of several microservices:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd exchange-platform
+git clone https://github.com/akash-wt/exchange
+cd exchange
 ```
 
 ### 2. Start Infrastructure Services
@@ -126,10 +114,6 @@ npm install
 npm run dev
 ```
 
-The application will be available at:
-- **Frontend**: http://localhost:3000
-- **API**: http://localhost:3000/api/v1
-- **WebSocket**: ws://localhost:3001
 
 ## 📁 Project Structure
 
@@ -145,7 +129,7 @@ The application will be available at:
 └── README.md
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -190,7 +174,7 @@ Subscribe to real-time data streams:
 {"method": "SUBSCRIBE", "params": ["ticker@TATA_INR"]}
 ```
 
-## 🧪 Testing
+##  Testing
 
 Run the test suite:
 
@@ -236,32 +220,6 @@ docker-compose up -d
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📝 TODO
-
-### Backend
-- [ ] Add user authentication and authorization
-- [ ] Implement balance management endpoints
-- [ ] Add order history and trade history APIs
-- [ ] Implement rate limiting and security measures
-- [ ] Add comprehensive error handling
-- [ ] Implement self-trade prevention
-- [ ] Add precision handling for decimal operations
-
-### Frontend
-- [ ] Add user authentication flow
-- [ ] Implement real-time trade feed
-- [ ] Add portfolio management interface
-- [ ] Improve responsive design
-- [ ] Add order history and trade history views
-- [ ] Implement advanced order types
-- [ ] Add market analysis tools
-
-### Infrastructure
-- [ ] Add monitoring and alerting
-- [ ] Implement backup and recovery procedures
-- [ ] Add performance optimization
-- [ ] Implement horizontal scaling
-- [ ] Add security hardening
 
 ## 📄 License
 
