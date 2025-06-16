@@ -2,42 +2,6 @@
 
 A high-performance, real-time cryptocurrency exchange platform built with a microservices architecture. Features include order matching, real-time market data, WebSocket connections, and a modern trading interface.
 
-##  Features
-
-### Trading
-- **Order Types**: Market and limit orders
-- **Real-time Order Book**: Live bid/ask updates
-- **Order Management**: Place, cancel, and track orders
-- **Balance Management**: Multi-asset wallet support
-
-### Market Data
-- **Real-time Price Feeds**: WebSocket-based live updates
-- **Trading Charts**: Interactive candlestick charts
-- **Market Depth**: Visual order book representation
-- **Trade History**: Recent trades and market activity
-
-### Technical
-- **High Performance**: Redis-based message queuing
-- **Scalable Architecture**: Microservices with clear separation
-- **Real-time Updates**: WebSocket connections for live data
-- **Time-series Database**: TimescaleDB for historical data
-- **Automated Testing**: Comprehensive test suite
-
-## 🛠️ Technology Stack
-
-### Backend
-- **Node.js** with TypeScript
-- **Express.js** for REST APIs
-- **Redis** for message queuing and caching
-- **PostgreSQL** with TimescaleDB for time-series data
-- **WebSocket** for real-time communication
-
-### Frontend
-- **Next.js** with React
-- **TypeScript** for type safety
-- **Tailwind CSS** for styling
-- **Lightweight Charts** for trading charts
-
 ## 📋 Prerequisites
 
 - Node.js 
