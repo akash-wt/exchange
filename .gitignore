@@ -10,3 +10,4 @@
 ./week-2/api/dist
 ./week-2/mm/node_modules
 ./week-2/mm/dist
+.env
