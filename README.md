@@ -1,6 +1,12 @@
 # Cryptocurrency Exchange Platform
 
 A high-performance, real-time cryptocurrency exchange platform built with a microservices architecture. Features include order matching, real-time market data, WebSocket connections, and a modern trading interface.
+## Architecture
+![image](https://github.com/user-attachments/assets/c8b706f3-d6c9-4e3d-995c-8693afa19406)
+<br>
+<br>
+<img width="1611" alt="Screenshot 2024-06-29 at 3 52 33 PM" src="https://github.com/user-attachments/assets/18c383df-e2ed-460e-828d-1624e6357993" />
+
 
 ## 📋 Prerequisites
 
